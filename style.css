@@ -1,0 +1,21 @@
+html{
+  background-color: grey;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.lowerKeys{
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
+.key{
+  background-color: white;
+  padding: 3vw;
+  padding-top: 20vh;
+  border: .5vh solid black;
+}
+.upperKeys
