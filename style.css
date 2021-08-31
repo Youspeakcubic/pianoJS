@@ -7,7 +7,12 @@ h1{
 h2{
   text-align: center;
 }
+.pianoContainer{
+  margin-top: 20vh;
+  box-shadow: 1vh 1vh 5vw black;
+}
 .lowerKeys{
+  position: absolute;
   display:flex;
   justify-content: center;
   width:100%;
@@ -17,5 +22,34 @@ h2{
   padding: 3vw;
   padding-top: 20vh;
   border: .5vh solid black;
+    box-shadow: 1vh 1vh 5vw black;
 }
-.upperKeys
+.upperKeys{
+  position: absolute;
+  display:flex;
+  justify-content: center;
+  width: 100%;
+}
+.keyUpper{
+  background-color: black;
+  padding: 2.5vw;
+  padding-top: 7vh;
+}
+.upperKeys h1 {
+  color:white;
+}
+#cSharp {
+  margin-right: 2vw;
+}
+#dSharp{
+}
+#fSharp{
+  margin-left: 6vw;
+  margin-right:2vw;
+}
+#dSharp{
+  margin-right:2vw;
+}
+#aSharp{
+  margin-left:2vw;
+}
